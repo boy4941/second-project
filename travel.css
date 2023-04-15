@@ -112,7 +112,7 @@ box-sizing: border-box;
 }
 
 .bcontainer1{
-    margin-left:30px;
+    margin-left:10px;
     margin-top:10px;
     display:flex;
    
@@ -233,7 +233,7 @@ box-sizing: border-box;
 .v{
     text-decoration: none;
     color:white;
-    font-size: 15px;
+    font-size: 20px;
     margin-left:20px;
 }
 
@@ -248,8 +248,8 @@ box-sizing: border-box;
     font-size:100px;
     position:absolute;
     left:300px;
-    top:3000px;
-    color:white;
+    top:5000px;
+    color:black;
     
 }
 
@@ -257,8 +257,8 @@ box-sizing: border-box;
     font-size:100px;
     position:absolute;
     right:300px;
-    top:3000px;
-    color:white;
+    top:5000px;
+    color:black;
     
 }
 .k:hover{
@@ -452,6 +452,7 @@ box-sizing: border-box;
     border:1px solid burlywood;
     padding:10px 10px;
     border-radius: 10%;
+    cursor:pointer;
 }
 .ocontainer{
     height:200px;
@@ -459,4 +460,76 @@ box-sizing: border-box;
 
 .i{
     margin-left:10px;
+}
+
+.ycontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blueviolet;
+    height:900px;
+}
+
+.ya{
+    width:500px;
+    height:400px;
+}
+
+.yd{
+    font-size: 54px;
+    font-weight: lighter;
+}
+
+.yc{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.ycontainer1{
+   text-align: center;
+    margin-top:150px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+
+}
+
+.ycontainer2{
+    margin-bottom:40px;
+}
+
+.tcontainer1{
+    float:left;
+    width:600px;
+}
+.tcontainer2{
+    float:right;
+    width:700px;
+}
+
+.tcontainer{
+    height:800px;
+    margin-top:300px;
+}
+
+.tc{
+    width:400px;
+    height:500px;
+    margin-left:0;
+}
+
+.ta{
+    font-weight: lighter;
+    font-size:50px;
+    padding-left: 150px;
+}
+
+.tb{
+    font-weight: lighter;
+    font-size:15px;
+    padding-left: 150px;
+}
+
+.td{
+    margin-top:40px;
 }
