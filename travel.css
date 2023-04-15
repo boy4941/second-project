@@ -282,19 +282,24 @@ box-sizing: border-box;
    text-align: center;
 }
 
-.a{
+.aac{
     padding-top:30px;
     margin-bottom:10px;
     font-size:40px;
     color:white;
 }
 
-.aa{
-    margin-left:550px;
+.aab{
+    margin-left:650px;
     font-size:50px;
     color:white;
     
 
+}
+
+.nn{
+    font-size:40px;
+    margin-right:10px;
 }
 
 .ab{
@@ -332,7 +337,7 @@ box-sizing: border-box;
     cursor:pointer;
 }
 
-.d{
+.z{
     font-size: 30px;
     color:white;
 }
@@ -366,7 +371,7 @@ box-sizing: border-box;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top:400px;
+    margin-top:200px;
 }
 
 .x{
@@ -393,4 +398,65 @@ box-sizing: border-box;
 .ff:hover{
     background-color: white;
     color:black;
+}
+
+.xx{
+    text-decoration: none;
+    color:burlywood;
+    margin-bottom: 30px;
+}
+
+.xy{
+    font-size:13px;
+    color:burlywood;
+}
+
+.ocontainer12{
+    display: flex;
+    margin-top:20px;
+}
+
+.xz{
+    text-decoration: none;
+    margin-left:10px;
+    color:black;
+
+    font-size:13px;
+}
+
+.g{
+    color:black;
+    width:1px;
+    height:5px;
+}
+
+.ocontainer13{
+    margin-bottom:20px;
+    margin-top:30px;
+}
+
+
+.ocontainer1{
+    float:left;
+    margin-left: 250px;
+}
+
+.ocontainer2{
+    float:left;
+    margin-left:250px;
+    margin-top:30px;
+}
+
+.butt{
+    color:burlywood;
+    border:1px solid burlywood;
+    padding:10px 10px;
+    border-radius: 10%;
+}
+.ocontainer{
+    height:200px;
+}
+
+.i{
+    margin-left:10px;
 }
