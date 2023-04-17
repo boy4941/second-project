@@ -10,63 +10,81 @@ html, html *{
         color:white;
         font-weight: bold;
         margin:150px 0 0 150px;
-        font-size:20px;
+        font-size:16px;
     
     }
     .lcontainer{
-        background-color: aqua;
+        background:url("img/back1.png");
         height:800px;
+        margin-top:50px;
+    
     }
     .a2{
         text-decoration: none;
         color:white;
-        font-size:20px;
+        font-size:16px;
+        margin-left:20px;
         
         
         
     }
-    
+
+    .container6{
+        display:flex;
+    }
+
+    .ha{
+        display:none;
+    }
     .container{
-        display: flex;
+        display:flex;
         margin-bottom:100px;
         
     }
     
     .con{
-        margin:150px 150px 0 700px;
+       margin:150px 0  0  700px;
     }
     
     .cont{
-        float:left;
+        
         margin-left:150px;
         
-        width:650px;
+        
     }
     
     .conta{
-        float:right;
-        margin-left:0;
-        width:550px;
+       
+        margin-left:0px;
+      
         
     }
     
     .dd{
         width:300px;
         height:500px;
-        margin-left:10px;
+        margin-left:30px;
+        border-radius: 10%;
+        margin-top:20px;
         
     }
     
     .h1{
-        font-size:80px;
+        font-size:75px;
         font-weight:bold;
         color:white;
+       
     }
     
     .h3{
         margin-top:20px;
         color:white;
-        font-size:30px;
+        font-size:20px;
+    }
+
+    .hhh{
+        clear:both;
+
     }
     
     .but{
@@ -81,22 +99,23 @@ html, html *{
     }
     
     .acontainer1{
-        float:left;
-        width:300px;
-        padding-left:200px;
-        padding-top:200px;
         
+        width:300px;
+        padding-left:150px;
+        padding-top:200px;
+        margin-right:300px;
        
     }
     .aa{
-        width:250px;
+        width:350px;
+        height:300px;
     }
     .acontainer2{
-        float:right;
+    
         width:700px;
         
         padding-top:200px;
-        margin-left:60px;
+        margin-left:15px;
       
     }
     
@@ -105,6 +124,7 @@ html, html *{
         width:100%;
         height:600px;
         background-color: bisque;
+        display:flex;
         
     }
     
@@ -167,24 +187,31 @@ html, html *{
         margin-bottom:30px;
     }
     .ee{
-        height:300px;
-        width:500px;
+        height:350px;
+        width:200px;
+        margin-left:13px;
+        box-shadow: 1px 1px gray;
+        border-radius: 10%;
+        
     }
-    
+    .eea{
+        
+    }
     .fcontainer{
         width:100%;
         height:450px;
+        display:flex;
+        background-color: rgb(250, 250, 250);;
     }
     .fcontainer1{
-        float:left;
         margin-top:200px;
         margin-left:150px;
-        width:350px;
+    
     }
     .fcontainer2{
-        float:right;
-        margin-top:200px;
-        width:700px;
+        margin-top:100px;
+    
+        margin-left: 200px;
     }
     
     .f{
@@ -202,13 +229,13 @@ html, html *{
     }
     
     .l{
-        width:300px;
-        height:300px;
+        width:200px;
+        height:400px;
     }
     
     .scontainer{
         padding-top:100px;
-        background-color:wheat;
+        background-color:aquamarine;
         height:800px;
     }
     
@@ -264,9 +291,8 @@ html, html *{
     
     .k{
         font-size:130px;
-        position:absolute;
-        left:300px;
-        top:4950px;
+        margin-right:50px;
+        margin-top:30px;
         color:white;
         font-weight: lighter;
         
@@ -274,9 +300,9 @@ html, html *{
     
     .u{
         font-size:130px;
-        position:absolute;
-        right:300px;
-        top:4950px;
+        margin-left:50px;
+        margin-top:30px;
+        
         color:white;
         font-weight: lighter;
         
@@ -293,19 +319,28 @@ html, html *{
     }
     
     .hcontainer{
-      background-color: blue;
+      background-color:blue;
       height:800px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
     
     }
     
     .o{
        text-align: center;
     }
-    
+    .aaad{
+        width:300px;
+        height:300px;
+        margin-bottom: 20px;
+        
+    }
     .aac{
         padding-top:30px;
         margin-bottom:30px;
-        font-size:40px;
+        font-size:30px;
         color:white;
     }
     
@@ -350,12 +385,12 @@ html, html *{
     }
     
     .button{
-        border-radius:45%;
+        border-radius:30px;
         background-color: white;
         color:blue;
         font-weight:bold;
         font-size:20px;
-        padding:20px 15px;
+        padding:16px 30px;
         cursor:pointer;
     }
     
@@ -377,15 +412,15 @@ html, html *{
     
     .rcontainer1{
         margin-left:150px;
-        margin-top:100px;
+        margin-top:50px;
     }
     
     .rcontainer2{
-        margin:100px 100px 0 800px;
+        margin:50px 100px 0 700px;
     }
     
     .qcontainer{
-        background-color:brown;
+        background-color:rgba(35, 51, 50, 0.96);;
         height:700px;
     }
     
@@ -396,24 +431,29 @@ html, html *{
         flex-direction: column;
         margin-top:200px;
     }
-    
+    .mm{
+        font-size:10px;
+        margin-left:7px;
+    }
+
     .x{
-        font-size:25px;
+        font-size:30px;
         color:white;
         font-weight: lighter;
         margin-bottom: 15px;
     }
     
     .y{
-        font-size:20px;
+        font-size:17px;
         color:white;
         font-weight: lighter;
+        
     }
     
     .ff{
         font-size:16px;
-        border-radius: 40%;
-        padding:15px 20px;
+        border-radius: 30px;
+        padding:15px 35px;
         color:white;
         background-color: burlywood;
         margin-top:20px;
@@ -465,12 +505,12 @@ html, html *{
     
     
     .ocontainer1{
-        float:left;
+        
         margin-left: 250px;
     }
     
     .ocontainer2{
-        float:left;
+        
         margin-left:250px;
         margin-top:30px;
     }
@@ -485,6 +525,7 @@ html, html *{
     }
     .ocontainer{
         height:200px;
+        display: flex;
     }
     
     .i{
@@ -496,13 +537,24 @@ html, html *{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color: blueviolet;
+        background-color: rgb(245, 245, 245);;
         height:900px;
+    }
+
+    .thing{
+        width:25px;
+    }
+    .ocon2{
+        margin-top:60px;
+        margin-left:80px;
     }
     
     .ya{
-        width:500px;
+        width:250px;
         height:400px;
+        margin-left:30px;
+        border-radius: 10%;
+        box-shadow:2px 2px gray;
     }
     
     .yd{
@@ -528,27 +580,29 @@ html, html *{
     }
     
     .tcontainer1{
-        float:left;
-        width:600px;
+        margin-left:60px;
+     
         margin-top:200px;
     }
     .tcontainer2{
-        float:right;
-        width:700px;
-        margin-top: 200px;
+        
+       margin-left:30px;
+        margin-top: 100px;
     }
     
     
     .tcontainer{
-        height:800px;
-        margin-top:300px;
-        background-color: tomato;
+        height:900px;
+        margin-top:100px;
+        background-color:rgb(245, 245, 245);;
+        display: flex;
     }
     
     .tc{
         width:400px;
         height:500px;
         margin-left:0;
+    
     }
     
     .ta{
@@ -570,4 +624,114 @@ html, html *{
     
     .tf{
         padding-top:100px;
+    }
+
+    .nna{
+        width:300px;
+        height:150px;
+        margin-top:200px;
+    }
+
+    .nnb{
+        width:300px;
+        height:200px;
+    }
+
+    .nnc{
+        width:300px;
+        height:200px;
+        
+    
+    }
+
+   
+
+    .nnd{
+        width:300px;
+        height:300px;
+        margin-top: 200px;
+    }
+
+    .nne{
+        width:300px;
+        height:300px;
+        
+    }
+    .tcontainer2{
+        display: flex;
+    
+    }
+    .q{
+     border-radius: 30px;   
+     margin-bottom:20px;
+    }
+
+.tc21{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right:20px;
+}
+.tc22{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.png{
+    width:12px;
+    height:12px;
+}
+
+
+
+@media  (max-width:768px){
+    .con{
+        margin:150px 25px 0 250px;
+    }
+    
+    .h1{
+        font-size:40px;
+        text-align: center;
+    
+    }
+    .h3{
+        font-size:20px;
+        text-align: center;
+    }
+    .but{
+        display: none;
+    }
+    
+    .cont{
+        float:none;
+        margin:auto;
+    }
+    
+    .conta{
+        float:none;
+        text-align: center;
+        margin:auto;
+    }
+    .dd{
+        width:200px;
+        height:300px;
+        margin-top:20px;
+        
+    }
+    
+    .ha{
+        display:block;
+        background-color: blue;
+        text-align: center;
+        font-weight: lighter;
+        font-size:10px;
+        padding:10px 10px;
+        color:white;
+    }
+    
+    
     }
