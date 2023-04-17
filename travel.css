@@ -9,33 +9,37 @@ html, html *{
         text-decoration: none;
         color:white;
         font-weight: bold;
-        margin:100px 0 0 100px;
+        margin:150px 0 0 150px;
         font-size:20px;
     
     }
     .lcontainer{
         background-color: aqua;
-        height:750px;
+        height:800px;
     }
     .a2{
         text-decoration: none;
         color:white;
         font-size:20px;
         
+        
+        
     }
     
     .container{
         display: flex;
         margin-bottom:100px;
+        
     }
     
     .con{
-        margin:100px 100px 0 800px;
+        margin:150px 150px 0 700px;
     }
     
     .cont{
         float:left;
-        margin-left:100px;
+        margin-left:150px;
+        
         width:650px;
     }
     
@@ -43,6 +47,7 @@ html, html *{
         float:right;
         margin-left:0;
         width:550px;
+        
     }
     
     .dd{
@@ -66,13 +71,13 @@ html, html *{
     
     .but{
         border-radius: 25px;
-        font-size:15px;
+        font-size:20px;
         font-weight: bold;
         color:white;
-        margin-top:20px;
+        margin-top:80px;
         border:1px solid white;
         background-color: aqua;
-        padding:10px 20px;
+        padding:10px 25px;
     }
     
     .acontainer1{
@@ -91,6 +96,7 @@ html, html *{
         width:700px;
         
         padding-top:200px;
+        margin-left:60px;
       
     }
     
@@ -103,8 +109,10 @@ html, html *{
     }
     
     .a{
-        margin-bottom:10px;
+        margin-bottom:25px;
         font-weight: lighter;
+        margin-left:60px;
+        font-size:35px;
     }
     
     .b{
@@ -112,18 +120,19 @@ html, html *{
     }
     
     .bcontainer1{
-        margin-left:10px;
-        margin-top:10px;
+        margin-left:50px;
+        margin-top:40px;
         display:flex;
        
     }
     .bcontainer2{
         margin-left: 30px;
-        margin-top:10px;
+        margin-top:40px;
         display:flex;
       
         
     }
+
     
     .c{
         font-size:14px;
@@ -143,15 +152,20 @@ html, html *{
     
     }
     .e{
-        font-size:40px;
+        font-size:50px;
         margin-bottom: 10px;
+        font-weight: lighter;
     }
     
     .d{
         font-size:15px;
         margin-bottom: 5px;
+        font-weight: lighter;
     }
     
+    .w{
+        margin-bottom:30px;
+    }
     .ee{
         height:300px;
         width:500px;
@@ -179,7 +193,9 @@ html, html *{
     }
     
     .s{
-        font-size:20px;
+        font-size:18px;
+        font-weight: lighter;
+        margin-bottom:10px;
     }
     .ll{
         margin-top:20px;
@@ -197,15 +213,17 @@ html, html *{
     }
     
     .h{
-        font-size:40px;
+        font-size:48px;
         margin-bottom: 10px;
         color:white;
         text-align: center;
+        font-weight:lighter;
     }
     .j{
-        font-size:20px;
+        font-size:18px;
         color:white;
         text-align: center;
+        font-weight: lighter;
     }
     
     .scontainer1{
@@ -234,7 +252,7 @@ html, html *{
         text-decoration: none;
         color:white;
         font-size: 20px;
-        margin-left:20px;
+        margin-left:30px;
     }
     
     .v:active{
@@ -245,20 +263,22 @@ html, html *{
     }
     
     .k{
-        font-size:100px;
+        font-size:130px;
         position:absolute;
         left:300px;
-        top:4780px;
-        color:black;
+        top:4950px;
+        color:white;
+        font-weight: lighter;
         
     }
     
     .u{
-        font-size:100px;
+        font-size:130px;
         position:absolute;
         right:300px;
-        top:4780px;
-        color:black;
+        top:4950px;
+        color:white;
+        font-weight: lighter;
         
     }
     .k:hover{
@@ -284,7 +304,7 @@ html, html *{
     
     .aac{
         padding-top:30px;
-        margin-bottom:10px;
+        margin-bottom:30px;
         font-size:40px;
         color:white;
     }
@@ -303,20 +323,22 @@ html, html *{
     }
     
     .ab{
-        font-size:50px;
+        font-size:60px;
         margin-top:10px;
         color:white;
     }
     .ac{
         font-size:50px;
-        margin-bottom:10px;
+        margin-bottom:20px;
         color:white;
     }
+
+    
     
     .ad{
         color:white;
         margin-bottom:10px;
-        font-size:15px;
+        font-size:16px;
         font-weight: lighter;
     }
     
@@ -328,12 +350,12 @@ html, html *{
     }
     
     .button{
-        border-radius: 20px;
+        border-radius:45%;
         background-color: white;
         color:blue;
         font-weight:bold;
-        font-size:30px;
-        padding:15px 15px;
+        font-size:20px;
+        padding:20px 15px;
         cursor:pointer;
     }
     
@@ -344,6 +366,7 @@ html, html *{
     
     .p{
         color:white;
+        font-size:20px;
        
     }
     
@@ -353,7 +376,7 @@ html, html *{
     }
     
     .rcontainer1{
-        margin-left:100px;
+        margin-left:150px;
         margin-top:100px;
     }
     
@@ -377,17 +400,20 @@ html, html *{
     .x{
         font-size:25px;
         color:white;
+        font-weight: lighter;
+        margin-bottom: 15px;
     }
     
     .y{
         font-size:20px;
         color:white;
+        font-weight: lighter;
     }
     
     .ff{
-        font-size:25px;
-        border-radius: 10%;
-        padding:15px 15px;
+        font-size:16px;
+        border-radius: 40%;
+        padding:15px 20px;
         color:white;
         background-color: burlywood;
         margin-top:20px;
@@ -404,11 +430,13 @@ html, html *{
         text-decoration: none;
         color:burlywood;
         margin-bottom: 30px;
+        font-size:13px;
     }
     
     .xy{
-        font-size:13px;
+        font-size:11px;
         color:burlywood;
+        font-weight: lighter;
     }
     
     .ocontainer12{
@@ -421,7 +449,7 @@ html, html *{
         margin-left:10px;
         color:black;
     
-        font-size:13px;
+        font-size:11px;
     }
     
     .g{
@@ -453,6 +481,7 @@ html, html *{
         padding:10px 10px;
         border-radius: 10%;
         cursor:pointer;
+        font-size:10px;
     }
     .ocontainer{
         height:200px;
@@ -530,12 +559,13 @@ html, html *{
     
     .tb{
         font-weight: lighter;
-        font-size:15px;
+        font-size:17px;
         padding-left: 150px;
+        margin-bottom:9px;
     }
     
     .td{
-        margin-top:40px;
+        margin-top:35px;
     }
     
     .tf{
