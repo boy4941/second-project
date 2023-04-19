@@ -4,6 +4,11 @@ html, html *{
     box-sizing: border-box;
     }
     
+    @keyframes hi{
+        from{transform:translateY(50px)}
+        to{transform: translateY(0);}
+        
+    }
     
     .a1{
         text-decoration: none;
@@ -15,8 +20,13 @@ html, html *{
     }
     .lcontainer{
         background:url("img/back1.png");
-        height:800px;
-        margin-top:50px;
+        height:900px;
+        padding-top:50px;
+        animation:hi 1s;
+    
+        
+        
+        
     
     }
     .a2{
@@ -24,10 +34,13 @@ html, html *{
         color:white;
         font-size:16px;
         margin-left:20px;
+        font-family: sans-serif;
         
         
         
     }
+
+    
 
     .container6{
         display:flex;
@@ -61,11 +74,12 @@ html, html *{
     }
     
     .dd{
-        width:300px;
-        height:500px;
+        width:280px;
+        height:550px;
         margin-left:30px;
-        border-radius: 10%;
+        border-radius: 30px;
         margin-top:20px;
+        box-shadow: rgba(0, 0, 0, 0.18) ;
         
     }
     
@@ -73,6 +87,7 @@ html, html *{
         font-size:75px;
         font-weight:bold;
         color:white;
+        font-family: sans-serif;
        
     }
     
@@ -80,6 +95,7 @@ html, html *{
         margin-top:20px;
         color:white;
         font-size:20px;
+        font-family: sans-serif;
     }
 
     .hhh{
@@ -96,14 +112,16 @@ html, html *{
         border:1px solid white;
         background-color: aqua;
         padding:10px 25px;
+        font-family: sans-serif;
     }
     
     .acontainer1{
         
-        width:300px;
+        
         padding-left:150px;
         padding-top:200px;
-        margin-right:300px;
+        margin-right:100px;
+        
        
     }
     .aa{
@@ -112,7 +130,7 @@ html, html *{
     }
     .acontainer2{
     
-        width:700px;
+        
         
         padding-top:200px;
         margin-left:15px;
@@ -125,6 +143,8 @@ html, html *{
         height:600px;
         background-color: bisque;
         display:flex;
+        animation: hi 1s;
+    
         
     }
     
@@ -133,6 +153,7 @@ html, html *{
         font-weight: lighter;
         margin-left:60px;
         font-size:35px;
+        font-family: sans-serif;
     }
     
     .b{
@@ -156,6 +177,7 @@ html, html *{
     
     .c{
         font-size:14px;
+        font-family: sans-serif;
     }
     
     .acontainer21{
@@ -169,39 +191,44 @@ html, html *{
         flex-direction: column;
         padding-top:100px;
         background-color:beige;
+        animation:hi 1s;
     
     }
     .e{
         font-size:50px;
         margin-bottom: 10px;
         font-weight: lighter;
+        font-family: sans-serif;
     }
     
     .d{
         font-size:15px;
         margin-bottom: 5px;
         font-weight: lighter;
+        font-family: sans-serif;
     }
     
     .w{
         margin-bottom:30px;
     }
     .ee{
-        height:350px;
-        width:200px;
-        margin-left:13px;
+        height:500px;
+        width:250px;
+        margin-left:17px;
         box-shadow: 1px 1px gray;
-        border-radius: 10%;
+        border-radius: 30px;
+        box-shadow:rgba(0, 0, 0, 0.18);
         
     }
     .eea{
         
     }
     .fcontainer{
-        width:100%;
-        height:450px;
+       max-width:100%;
+        height:500px;
         display:flex;
         background-color: rgb(250, 250, 250);;
+        animation:hi 1s;
     }
     .fcontainer1{
         margin-top:200px;
@@ -209,34 +236,45 @@ html, html *{
     
     }
     .fcontainer2{
-        margin-top:100px;
+        
+        
+        margin-top:200px;
     
-        margin-left: 200px;
+        margin-left: 300px;
     }
     
     .f{
         font-size:50px;
         font-weight: lighter;
+        font-family: sans-serif;
+        
     }
     
     .s{
         font-size:18px;
         font-weight: lighter;
         margin-bottom:10px;
+        font-family: sans-serif;
     }
     .ll{
         margin-top:20px;
     }
     
     .l{
-        width:200px;
+        width:250px;
         height:400px;
+        border-radius: 30px;
+        box-shadow: rgba(0, 0, 0, 0.18) ;
+        
     }
     
     .scontainer{
         padding-top:100px;
         background-color:aquamarine;
         height:800px;
+        position:relative;
+        animation:hi 1s;
+      
     }
     
     .h{
@@ -245,12 +283,22 @@ html, html *{
         color:white;
         text-align: center;
         font-weight:lighter;
+        font-family: sans-serif;
     }
     .j{
         font-size:18px;
         color:white;
         text-align: center;
         font-weight: lighter;
+        font-family: sans-serif;
+    }
+    .bbf{
+        position:absolute;
+        left:600px;
+        top:3350px;
+    }
+    .bbg{
+        position:absolute;
     }
     
     .scontainer1{
@@ -325,11 +373,13 @@ html, html *{
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      animation:hi 1s;
     
     }
     
     .o{
        text-align: center;
+       font-family: sans-serif;
     }
     .aaad{
         width:300px;
@@ -402,12 +452,14 @@ html, html *{
     .p{
         color:white;
         font-size:20px;
+        font-family: sans-serif;
        
     }
     
     .rcontainer{
        
         display:flex;
+        animation:hi 1s;
     }
     
     .rcontainer1{
@@ -441,12 +493,14 @@ html, html *{
         color:white;
         font-weight: lighter;
         margin-bottom: 15px;
+        font-family: sans-serif;
     }
     
     .y{
         font-size:17px;
         color:white;
         font-weight: lighter;
+        font-family: sans-serif;
         
     }
     
@@ -459,6 +513,7 @@ html, html *{
         margin-top:20px;
         cursor:pointer;
         border:1px solid white;
+        font-family: sans-serif;
     }
     
     .ff:hover{
@@ -471,12 +526,14 @@ html, html *{
         color:burlywood;
         margin-bottom: 30px;
         font-size:13px;
+        font-family: sans-serif;
     }
     
     .xy{
         font-size:11px;
         color:burlywood;
         font-weight: lighter;
+        font-family: sans-serif;
     }
     
     .ocontainer12{
@@ -488,7 +545,7 @@ html, html *{
         text-decoration: none;
         margin-left:10px;
         color:black;
-    
+        font-family: sans-serif;
         font-size:11px;
     }
     
@@ -522,10 +579,12 @@ html, html *{
         border-radius: 10%;
         cursor:pointer;
         font-size:10px;
+        font-family: sans-serif;
     }
     .ocontainer{
         height:200px;
         display: flex;
+        animation:hi 1s;
     }
     
     .i{
@@ -539,6 +598,7 @@ html, html *{
         flex-direction: column;
         background-color: rgb(245, 245, 245);;
         height:900px;
+        animation:hi 1s;
     }
 
     .thing{
@@ -550,21 +610,23 @@ html, html *{
     }
     
     .ya{
-        width:250px;
+        width:200px;
         height:400px;
         margin-left:30px;
-        border-radius: 10%;
-        box-shadow:2px 2px gray;
+        border-radius: 30px;
+        box-shadow:rgba(0, 0, 0, 0.18) 
     }
     
     .yd{
         font-size: 54px;
         font-weight: lighter;
+        font-family: sans-serif;
     }
     
     .yc{
         font-size: 16px;
         font-weight: lighter;
+        font-family: sans-serif;
     }
     
     .ycontainer1{
@@ -596,6 +658,7 @@ html, html *{
         margin-top:100px;
         background-color:rgb(245, 245, 245);;
         display: flex;
+        animation:hi 1s;
     }
     
     .tc{
@@ -609,6 +672,7 @@ html, html *{
         font-weight: lighter;
         font-size:50px;
         padding-left: 150px;
+        font-family: sans-serif;
     }
     
     .tb{
@@ -616,6 +680,7 @@ html, html *{
         font-size:17px;
         padding-left: 150px;
         margin-bottom:9px;
+        font-family: sans-serif;
     }
     
     .td{
@@ -627,33 +692,37 @@ html, html *{
     }
 
     .nna{
-        width:300px;
+        width:250px;
         height:150px;
-        margin-top:200px;
+        margin-top:400px;
     }
 
     .nnb{
-        width:300px;
+        width:250px;
         height:200px;
     }
 
     .nnc{
-        width:300px;
+        width:250px;
         height:200px;
         
     
     }
-
-   
+    .q{
+        box-shadow: (0, 0, 0, 0.18) 
+    }
+   .gggg{
+    
+   }
 
     .nnd{
-        width:300px;
+        width:250px;
         height:300px;
         margin-top: 200px;
     }
 
     .nne{
-        width:300px;
+        width:250px;
         height:300px;
         
     }
@@ -688,11 +757,28 @@ html, html *{
 
 
 
-@media  (max-width:768px){
-    .con{
-        margin:150px 25px 0 250px;
-    }
+@media screen and  (max-width:768px){
+
     
+    .con{
+        width:700px;
+        margin:0px 25px 0 430px;
+    
+    }
+    .lcontainer{
+        height:765px;
+    }
+    .a1{
+        margin-top:0px;
+        margin-left:20px;
+        font-size:13px;
+    }
+    .a2{
+        font-size:13px;
+    }
+    .container{
+      margin-top:10px;
+    }
     .h1{
         font-size:40px;
         text-align: center;
@@ -707,18 +793,18 @@ html, html *{
     }
     
     .cont{
-        float:none;
+        
         margin:auto;
     }
     
     .conta{
-        float:none;
+        
         text-align: center;
         margin:auto;
     }
     .dd{
         width:200px;
-        height:300px;
+        height:400px;
         margin-top:20px;
         
     }
@@ -731,7 +817,256 @@ html, html *{
         font-size:10px;
         padding:10px 10px;
         color:white;
+        
+        position:relative;
+       
     }
     
+    .container6{
+        display:block;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+   
+    
+    .acontainer{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height:500px;
+    }
+    .aa{
+        width:190px;
+        height:160px;
+
+    }
+    .acontainer2{
+        margin-top: 10px;
+        position: absolute;
+      
+        
     
     }
+    .acontainer1{
+        margin-bottom: 400px;
+        
+     
+    }
+    .a{
+        font-size: 20px;
+        text-align: center;
+    }
+    .c{
+        font-size:10px;
+    }
+    .nn{
+        font-size:20px;
+        margin-top:5px;
+    }
+
+    .econtainer{
+        position: relative;
+        height:700px;
+    }
+
+    .e{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .ee{
+        width:120px;
+        height:230px;
+    }
+    .eeb{
+        position: absolute;
+        top:380px;
+        left:270px;
+    }
+    .eea{
+        margin-left:20px;
+    }
+    .eec{
+        margin-right:20px;
+    }
+    .eeee{
+        margin-top:40px;
+    }
+
+    .yd{
+        font-size:25px;
+        font-weight: bold;
+    }
+    .yc{
+        font-size:15px;
+        text-align: center;
+    }
+
+    .ya{
+        width:120px;
+        height:250px;
+    }
+
+    .ya2{
+        position:absolute;
+        top:2450px;
+        left:260px;
+    }
+    .yaa{
+        margin-top:50px;
+    }
+    .ya1{
+        margin-right: 40px;
+    }
+
+    .f{
+        font-size:40px;
+    }
+    .fcontainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height:600px;
+    }
+    .f{
+        text-align: center;
+        font-size:25px;
+    }
+    .s{
+        font-size:15px;
+        text-align: center;
+    }
+
+    .l{
+        width:100px;
+        height:250px;
+        
+        text-align: center;
+    }
+  
+    
+    .fcontainer{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .fcontainer1{
+        margin-top:40px;
+        margin-left:30px;
+    }
+    .bbg{
+        position: absolute;
+        left:300px;
+        top:3250px;
+        width:130px;
+    }
+    .bbf{
+        position:absolute;
+        top:3180px;
+        left:360px;
+        width:130px;
+    }
+
+    .tcontainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height:700px;
+    }
+   .tcontainer1{
+    margin-bottom:700px ;
+    
+    margin-left:0px;
+    
+   }
+   .tcontainer2{
+    position: absolute;
+    
+   }
+   .nna{
+    width:150px;
+    height:90px;
+   }
+   .nnb{
+    width:150px;
+    height:200px;
+   }
+   .nnc{
+    width:150px;
+   }
+   .nnd{
+    width:150px;
+    height:300px;
+    padding-top: 100px;
+   }
+   .nne{
+    width:150px;
+   }
+
+   .ta{
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+   }
+   .tb{
+    font-size:13px;
+    text-align: center;
+   }
+  
+   .xy{
+    font-size:10px;
+   }
+
+   .ocontainer1{
+    margin-left:30px;
+   }
+   .ocontainer2{
+    margin-left: 170px;
+   }
+
+   .rcontainer2{
+    margin-top:25px;
+    margin-left:450px;
+    display:flex;
+    width:500px;
+    
+
+   }
+   .rcontainer1{
+    margin-left: 50px;
+    margin-top:15px;
+   }
+   .z{
+    font-size:15px;
+    margin-left:10px;
+    
+   }
+   
+   .p{
+    font-size:15px;
+    
+   }
+   .x{
+    font-size: 16px;
+   }
+   .y{
+    font-size: 14px;
+   }
+
+   .ff{
+    font-size:13px;
+    padding:5px 15px;
+   }
+   .qcontainer{
+    height:500px;
+   }
+   .ocontainer{
+    height:250px;
+   }
+}
